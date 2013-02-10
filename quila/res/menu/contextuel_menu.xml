@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_content_edit"
+        android:showAsAction="always"
+        android:title="@string/menu_popup_edit"/>
+    
+    <item
+        android:id="@+id/menu_contextuel"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom">
+
+        <!-- Sous-menu "Prêts" -->
+        <menu>
+            <item
+                android:id="@+id/menu_alarm"
+                android:icon="@drawable/ic_add_alarm"
+                android:showAsAction="always"
+                android:title="@string/menu_alarm_edit"/>
+            <item
+                android:id="@+id/menu_delete_alarm"
+                android:icon="@drawable/ic_delete_alarm"
+                android:showAsAction="always"
+                android:title="@string/menu_alarm_delete"/>
+            <item
+                android:id="@+id/menu_delete"
+                android:icon="@drawable/ic_delete"
+                android:showAsAction="always"
+                android:title="@string/menu_popup_delete"/>
+        </menu>
+    </item>
+
+</menu>

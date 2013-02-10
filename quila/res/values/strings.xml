@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Libellé principaux du manifest -->
+    <string name="app_name">Quila!</string>
+    <string name="rappels_activity">Rappels</string>
+    <string name="prets_activity">Prêts</string>
+    <string name="emprunts_activity">Emprunts</string>
+
+    <!-- Construction du menu -->
+    <string name="menu_pret">Prêts</string>
+    <string name="nouveau_pret">Nouveau prêt</string>
+    <string name="menu_emprunt">Emprunts</string>
+    <string name="nouvel_emprunt">Nouvel emprunt</string>
+    <string name="menu_creer_contact">Créer contact</string>
+	<string name="menu_settings">Paramètres</string>
+
+    <!-- Construction du menu contextuel -->
+    <string name="menu_popup_edit">Editer</string>
+    <string name="menu_popup_delete">Supprimer</string>
+    <string name="menu_alarm_edit">Rappel</string>
+    <string name="menu_alarm_delete">Supprimer rappel</string>
+    
+    <!-- Construction de la popup -->
+    <string name="image_popup_detail">Image du rappel</string>
+	<string name="popup_label_contact">Contact : </string>
+    <string name="popup_label_objet">Objet : </string>
+	<string name="popup_label_date_pret">A rendre avant le : </string>
+    <string name="popup_label_date_emprunt">A récupérer avant le : </string>
+	<string name="popup_descr_sms">Envoie SMS</string>
+    <string name="popup_descr_email">Envoie Email</string>
+    <string name="popup_sms_Button">SMS</string>
+    <string name="popup_email_Button">Email</string>
+    <string name="popup_telephone_absent">Il n\'y a pas de téléphone mobile pour ce contact, aucun SMS envoyé!</string>
+    
+    <!-- Construction du formulaire de Prêt -->
+    <string name="contact_titre_fenetre">Nouveau contact</string>
+    <string name="pret_hint_contact">Contact</string>
+    <string name="pret_hint_date">Date</string>
+    <string name="pret_hint_objet">Objet</string>
+    <string name="pret_hint_image">Image de l\'objet</string>
+    <string name="label_prendre_photo">Prendre une photo </string>
+    <string name="label_choisir_image">Choisir une image </string>
+
+    <!-- Bouton des formulaires -->
+    <string name="choix_contact_Button">Contact</string>
+    <string name="desc_butt_contact">Contact</string>
+    <string name="choix_date_Button">Date</string>
+    <string name="desc_butt_date">Date</string>
+    <string name="choix_image_Button">Image</string>
+    <string name="desc_butt_camera">Camera</string>
+    <string name="desc_butt_image">Image</string>
+    <string name="empruntpret_enreg_Button">Enregistrer</string>
+    <string name="empruntpret_annuler_Button">Annuler</string>
+    <string name="choix_camera_Button">Photo</string>
+
+    <!-- Libellé de notification -->
+    <string name="notification_titre_pret">Rappel de prêt</string>
+    <string name="notification_message_pret">Récupérer %1$s auprès de %2$s le %3$s</string>
+    <string name="notification_titre_emprunt">Rappel d\'emprunt</string>
+    <string name="notification_message_emprunt">Rendre %1$s à %2$s le %3$s</string>
+
+    <!-- Paramètres d'application -->
+    <string name="format_date">dd/MM/yyyy</string>
+
+</resources>

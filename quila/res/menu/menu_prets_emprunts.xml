@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+          android:title="@string/menu_settings" 
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/menu_pret"
+          android:title="@string/menu_pret" 
+          android:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_overflow">
+        <!-- Sous-menu "Prêts" -->
+        <menu>
+            <item android:id="@+id/creer_nouveau_pret"
+                  android:title="@string/nouveau_pret"
+                  android:showAsAction="ifRoom" 
+                  android:icon="@drawable/ic_menu_new"/>
+            <item android:id="@+id/creer_nouvel_emprunt"
+                  android:showAsAction="ifRoom"
+                  android:title="@string/nouvel_emprunt" 
+                  android:icon="@drawable/ic_menu_new"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Definig a container for you List Item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top" 
+    android:background="?android:attr/activatedBackgroundIndicator">  
+    <!-- permet d'activer le changement couleur pour différencier les items sélectionnés -->  
+	<!-- android:background="?android:attr/activatedBackgroundIndicator" -->
+    
+    <ImageView
+        android:id="@+id/image_list"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/pret_hint_image"
+        android:hint="@string/pret_hint_image"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtNomContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="80dp"
+        android:textSize="12dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtObjet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:textSize="12dp"
+        android:textColor="@android:color/black"
+        android:textStyle="italic" />
+
+       <ImageView
+        android:id="@+id/image_alarm"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:contentDescription="@string/pret_hint_image"
+        android:hint="@string/pret_hint_image">
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:layout_gravity="right"
+        android:textStyle="italic" />
+
+</LinearLayout>

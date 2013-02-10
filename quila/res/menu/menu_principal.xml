@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_enregistrer"
+        android:icon="@drawable/ic_enregistrer"
+        android:showAsAction="always"
+        android:title="@string/empruntpret_enreg_Button"/>
+    <item
+        android:id="@+id/menu_formulaire"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menu_creer_contact"
+                android:icon="@drawable/ic_menu_add_person"
+                android:showAsAction="always"
+                android:title="@string/menu_creer_contact"/>
+            <item
+                android:id="@+id/menu_annuler"
+                android:icon="@drawable/ic_annuler"
+                android:showAsAction="always"
+                android:title="@string/empruntpret_annuler_Button"/>
+        </menu>
+    </item>
+
+</menu>
