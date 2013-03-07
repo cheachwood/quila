@@ -49,7 +49,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	}
 
 	/**
-	 * M�thode qui est lancée à l'initisalitation de la base pour créer les tables
+	 * Méthode qui est lancée à l'initisalitation de la base pour créer les tables
 	 */
 	@Override
 	public void onCreate(SQLiteDatabase db) {
